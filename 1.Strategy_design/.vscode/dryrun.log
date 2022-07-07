@@ -1,0 +1,6 @@
+C:\cygwin64\bin\make.exe -f C:\Users\JXNM64\Design-Pattern\1.Strategy_design --dry-run --keep-going --print-directory
+make: Entering directory '/cygdrive/c/Users/JXNM64/Design-Pattern/1.Strategy_design'
+make: Leaving directory '/cygdrive/c/Users/JXNM64/Design-Pattern/1.Strategy_design'
+ 
+make: *** C:\Users\JXNM64\Design-Pattern\1.Strategy_design: Is a directory.  Stop.
+
