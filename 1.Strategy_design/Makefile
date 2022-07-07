@@ -2,11 +2,11 @@ CXX       := g++
 CXX_FLAGS := -Wall -Wextra -std=c++11 -ggdb
 
 BIN     := bin
-SRC     := C:/Users/JXNM64/Design-Pattern/1.Strategy_design
-INCLUDE := C:/Users/JXNM64/Design-Pattern/1.Strategy_design
+SRC     := $(shell pwd)
+INCLUDE := $(shell pwd)
 LIB     := lib
 LIBRARIES   := 
-EXECUTABLE  := main.exe
+EXECUTABLE  := main
 
 all: $(BIN)/$(EXECUTABLE)
 
