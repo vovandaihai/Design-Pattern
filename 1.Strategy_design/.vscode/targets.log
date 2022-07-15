@@ -9,10 +9,12 @@ make: *** C:\Users\JXNM64\Design-Pattern\1.Strategy_design: Is a directory.  Sto
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Thu Jul  7 17:45:36 2022
+# Make data base, printed on Fri Jul 15 15:30:45 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -21,8 +23,6 @@ LC_ALL = C
 USERPROFILE = C:\Users\JXNM64
 # environment
 LOCALAPPDATA = C:\Users\JXNM64\AppData\Local
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3608b76a-9002-4037-b518-f7b2697eee8b-sock
 # environment
 VSCODE_CWD = C:\Users\JXNM64\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -38,7 +38,9 @@ USERDNSDOMAIN = DS.MOT.COM
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20780_ZNFWAKUJYBSHPTDB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_32756_ZHISLWQHTQKBJSRF
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -49,12 +51,10 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\JXNM64\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\JXNM64\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LANG = C
 # default
@@ -69,8 +69,6 @@ MAKEFLAGS = pqrR
 ONEDRIVE = C:\Users\JXNM64\OneDrive
 # makefile
 CURDIR := /cygdrive/c/Users/JXNM64/Design-Pattern/1.Strategy_design
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 GIT_LFS_SKIP_SMUDGE = 1
 # environment
@@ -94,9 +92,7 @@ MAKEFILE_LIST := C:\Users\JXNM64\Design-Pattern\1.Strategy_design
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 20780
+VSCODE_PID = 32756
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -128,7 +124,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /cygdrive/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/cygdrive/c/windows/system32:/cygdrive/c/windows:/cygdrive/c/windows/System32/Wbem:/cygdrive/c/windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/windows/System32/OpenSSH:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files/Git LFS:/cygdrive/c/Python27:/cygdrive/c/Program Files/Git/usr/bin:/cygdrive/c/Program Files/Microsoft/Web Platform Installer:/cygdrive/c/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0:/cygdrive/c/Program Files (x86)/Windows Kits/8.0/Windows Performance Toolkit:/cygdrive/c/Program Files/Microsoft SQL Server/110/Tools/Binn:/cygdrive/c/Python27/Scripts:/cygdrive/c/Python27:/usr/bin:/cygdrive/c/Users/JXNM64/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/JXNM64/AppData/Local/Programs/Microsoft VS Code/bin
+PATH = /cygdrive/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/cygdrive/c/windows/system32:/cygdrive/c/windows:/cygdrive/c/windows/System32/Wbem:/cygdrive/c/windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/windows/System32/OpenSSH:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files/Git LFS:/cygdrive/c/Python27:/cygdrive/c/Program Files/Git/usr/bin:/cygdrive/c/Program Files/Microsoft/Web Platform Installer:/cygdrive/c/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0:/cygdrive/c/Program Files (x86)/Windows Kits/8.0/Windows Performance Toolkit:/cygdrive/c/Program Files/Microsoft SQL Server/110/Tools/Binn:/cygdrive/c/Python27/Scripts:/cygdrive/c/Python27:/usr/bin:/cygdrive/c/Users/JXNM64/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/JXNM64/AppData/Local/Programs/Microsoft VS Code/bin:/usr/bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -142,9 +138,7 @@ PROMPT = $P$G
 # environment
 SNOW_AGENT = C:\Program Files\Snow Software\Inventory\Agent
 # environment
-LOGONSERVER = \\AUSE1DSDC1201
-# environment
-VSCODE_LOG_NATIVE = false
+LOGONSERVER = \\AUSE1DSDC1203
 # environment
 USERNAME = JXNM64
 # environment
@@ -167,6 +161,8 @@ GNUMAKEFLAGS :=
 GIT_LFS_PATH = C:\Program Files\Git LFS
 # environment
 OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -198,7 +194,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = /cygdrive/c/Users/JXNM64/AppData/Local/Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\9f72e5de071bb5d94bbd1ad3ccfd2412-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\9f72e5de071bb5d94bbd1ad3ccfd2412-1.69.0-main-sock
 # environment
 TERM = xterm-256color
 # default
@@ -209,6 +205,8 @@ TERM = xterm-256color
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # environment
@@ -217,8 +215,9 @@ REGIONCODE = APJ
 PROCESSOR_REVISION = 8d01
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+ 
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=9/112=8%
+# Load=101/1024=10%, Rehash=0, Collisions=9/111=8%
 
 # Pattern-specific Variable Values
 
@@ -268,6 +267,6 @@ C:\Users\JXNM64\Design-Pattern\1.Strategy_design:
 # strcache performance: lookups = 8 / hit rate = 37%
 # hash-table stats:
 # Load=5/8192=0%, Rehash=0, Collisions=0/8=0%
-# Finished Make data base on Thu Jul  7 17:45:36 2022
+# Finished Make data base on Fri Jul 15 15:30:45 2022
 
  
