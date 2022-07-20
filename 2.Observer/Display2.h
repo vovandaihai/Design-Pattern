@@ -1,9 +1,16 @@
 #include "IDisplay.h"
 #include "IObserver.h"
+#include "ISubject.h"
 #include <iostream>
-
+#include "WeatherData.h"
 class Display2 : public IDisplay , public IObserver{
 public:
+    WeatherData *w;
+    Display2(ISubject *wetherData)
+    {
+        wetherData->registerObserver(this);
+     
+    };
     void update(int t, int p, int c)
     {
         temp = t;
@@ -13,7 +20,7 @@ public:
     }
     void visualize() 
     {
-        std::cout << "Display2 temp = " << temp << " p: " << press << " c: " << cal << "visual\n";
+        std::cout << "Display2 temp = " << temp << " p: " << press << " c: " << cal << " visual\n";
     };
 private:
     int temp;

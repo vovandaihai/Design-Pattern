@@ -6,6 +6,7 @@ public:
     void notice ()
     {
       auto obList = getListObserver();
+      std::cout << "sizeof observer: " << obList.size() << std::endl;
       for (auto i : obList)
       {
         i->update(temp, press, cal);

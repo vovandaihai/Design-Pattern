@@ -8,11 +8,16 @@ int main()
 {
     WeatherData *w = new WeatherData;
     Display1 *disp1 = new Display1;
-    Display2 *disp2 = new Display2;
+    Display2 *disp2 = new Display2(w);
     w->registerObserver(disp1);
-    w->registerObserver(disp2);
+    
     w->setCal (0);
     w->setPress(0);
+    w->setTemp(1);
+    w->notice();
+    w->unRegisterObserver(disp1);
+    w->setCal (0);
+    w->setPress(2);
     w->setTemp(1);
     w->notice();
     return 0;

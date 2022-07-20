@@ -17,9 +17,12 @@ public:
         {
             //delete *it;
             observerList.erase(it);
+            std::cout << "remove success! - size left: " << observerList.size() << "\n";
         }
+        
     };
-        std::vector<IObserver*> getListObserver()
+    
+    std::vector<IObserver*> getListObserver()
     {
         return observerList;
     };
