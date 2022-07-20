@@ -5,11 +5,11 @@
 #include "WeatherData.h"
 class Display2 : public IDisplay , public IObserver{
 public:
-    WeatherData *w;
+    ISubject *w;
     Display2(ISubject *wetherData)
     {
         wetherData->registerObserver(this);
-     
+        w = wetherData;
     };
     void update(int t, int p, int c)
     {

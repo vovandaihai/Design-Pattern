@@ -15,7 +15,7 @@ int main()
     w->setPress(0);
     w->setTemp(1);
     w->notice();
-    w->unRegisterObserver(disp1);
+    disp2->w->unRegisterObserver(disp2);
     w->setCal (0);
     w->setPress(2);
     w->setTemp(1);
