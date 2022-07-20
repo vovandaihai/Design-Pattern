@@ -13,11 +13,13 @@ public:
     void unRegisterObserver(IObserver *ob)
     {
         for (auto it = observerList.begin(); it != observerList.end(); it++)
-        if (*it == ob)
         {
-            //delete *it;
-            observerList.erase(it);
-            std::cout << "remove success! - size left: " << observerList.size() << "\n";
+            if (*it == ob)
+            {
+                //delete *it;
+                observerList.erase(it);
+                break;
+            }
         }
         
     };
