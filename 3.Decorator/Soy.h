@@ -4,9 +4,15 @@ class Soy : public Decorator
 {
     private:
     int soyCost;
+    std::string des;
     public:
     Soy() {
         soyCost = 2;
+        des = ", soy";
+    }
+    std::string getDescription()
+    {
+        return beverage->getDescription() + des;
     }
 
     int cost ()

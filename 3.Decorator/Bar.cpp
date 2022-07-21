@@ -11,7 +11,7 @@ int main()
     s->beverage = m;
     m->beverage = a;
     s2->beverage = s;
-    std::cout << s2->cost();
+    std::cout << s2->cost() << " \n" << s2->getDescription();;
     
     return 0;
 }

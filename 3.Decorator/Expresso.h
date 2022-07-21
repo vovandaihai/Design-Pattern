@@ -3,12 +3,14 @@ class Expresso : public Beverage
 {
 
     public:
-    void description()
+    std::string getDescription()
     {
-        std::cout << "Price of this Beverage: " << cost() << std::endl;
+        return res;
     }
     int cost()
     {
         return 1;
     }
+    private:
+    std::string res = "Expresso";
 };
