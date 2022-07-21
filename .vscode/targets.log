@@ -7,9 +7,8 @@ make: *** C:\Users\JXNM64\Design-Pattern\1.Strategy_design: Is a directory.  Sto
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Wed Jul 20 16:01:43 2022
+# Make data base, printed on Thu Jul 21 15:00:14 2022
 
 # Variables
 
@@ -36,7 +35,7 @@ USERDNSDOMAIN = DS.MOT.COM
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13280_FSUMSZQCRIVXHJII
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_27252_KYUJBJHFJFDQIBNB
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -68,7 +67,7 @@ CURDIR := /cygdrive/c/Users/JXNM64/Design-Pattern
 # environment
 GIT_LFS_SKIP_SMUDGE = 1
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -88,7 +87,7 @@ MAKEFILE_LIST := C:\Users\JXNM64\Design-Pattern\1.Strategy_design
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 13280
+VSCODE_PID = 27252
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -154,7 +153,6 @@ USERDOMAIN = DS
 # environment
 GNUMAKEFLAGS := 
 # environment
- 
 GIT_LFS_PATH = C:\Program Files\Git LFS
 # environment
 OS = Windows_NT
@@ -261,6 +259,6 @@ C:\Users\JXNM64\Design-Pattern\1.Strategy_design:
 # strcache performance: lookups = 8 / hit rate = 37%
 # hash-table stats:
 # Load=5/8192=0%, Rehash=0, Collisions=0/8=0%
-# Finished Make data base on Wed Jul 20 16:01:43 2022
+# Finished Make data base on Thu Jul 21 15:00:14 2022
 
  
