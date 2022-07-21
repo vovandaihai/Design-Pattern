@@ -3,11 +3,12 @@
 class Soy : public Decorator
 {
     private:
-    int soyCost;
+
     std::string des;
     public:
-    Soy() {
-        soyCost = 2;
+    Soy(int s) {
+        setSize(s);
+        
         des = ", soy";
     }
     std::string getDescription()
@@ -19,9 +20,9 @@ class Soy : public Decorator
     {
         if (beverage != nullptr)
         {
-            return beverage->cost() + soyCost;
+            return beverage->cost() + getSize();
         }
-        return soyCost;
+        return getSize();
     }
     
 };

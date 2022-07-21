@@ -3,10 +3,10 @@
 #include "Soy.h"
 int main()
 {
-    Expresso *a = new Expresso;
-    Milk *m = new Milk;
-    Soy *s = new Soy;
-    Soy *s2 = new Soy;
+    Expresso *a = new Expresso(VENTI);
+    Milk *m = new Milk(GRANDE);
+    Soy *s = new Soy(GRANDE);
+    Soy *s2 = new Soy(VENTI);
 
     s->beverage = m;
     m->beverage = a;

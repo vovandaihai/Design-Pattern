@@ -1,12 +1,12 @@
 #include "Decorator.h"
 class Milk : public Decorator{
 private:
-    int milkCost;
+    
     std::string des;
 public:
-    Milk()
+    Milk(int s)
     {
-        milkCost = 1;
+        setSize(s);
         des = ", Milk";
     }
     std::string getDescription()
@@ -17,8 +17,8 @@ public:
     {
         if (beverage != nullptr)
         {
-            return beverage->cost() + milkCost; 
+            return beverage->cost() + getSize(); 
         }
-        return milkCost;
+        return getSize();
     }
 };
